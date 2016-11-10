@@ -1,0 +1,243 @@
+@font-face{
+	font-family: Proxima Nova Extra Condensed Regular;
+	src:url('Proxima Nova Extra Condensed Regular.otf');
+}
+@font-face{
+	font-family: Proxima Nova Bold;
+	src:url('Proxima Nova Bold.otf');
+}
+@font-face{
+	font-family: Proxima Nova Regular;
+	src:url('Proxima Nova Regular.otf');
+}
+{
+	background-color: lightgreen;
+}
+.container{
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+h3,h1,h2,h4,h5,h6,p{
+	margin: 0;
+}
+.label{
+	position: relative;
+	font-size: 14px;
+	color: #1f4c6b;
+	font-family: Proxima Nova Bold;
+	font-stretch: condensed;
+	margin-left: 9px;
+	font-weight: 100;
+}
+.input{
+	margin-top: 15px;
+	display: block;
+	font-size: 26px;
+	width: 217px;
+	height: 53px;
+	border-radius: 15px;
+	border:2px #66aecc solid;
+	padding-left: 20px;
+	transition: border 0.2s;
+	font-family: Proxima Nova Regular;
+
+}
+.input:hover{
+	border:2px #1f4c6b solid;
+
+}
+.input:focus{
+	border:2px #1f4c6b solid;
+}
+.butt2{
+	width: 175px;
+	height: 55px;
+	background-color: #d12d33;
+	margin-left: 35px;
+	color: white;
+	outline: none;
+	border:none;
+	font-family: Proxima Nova Condensed;
+	font-stretch: condensed;
+	cursor: pointer;
+	border-radius: 30px;
+	text-align: center;
+	vertical-align: middle;
+	transition: background-color 0.3s;
+}
+.butt2:hover{
+	background-color: #1f4c6b;
+}
+.butt2:active{
+	background-color: #1f4c6b;
+}
+.text{
+	font-family: Proxima Nova Bold;
+	position: relative;
+	top: -7px;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 5px;
+}
+.form2, .form3{
+	display: inline-block;
+	margin-top: 23px;
+}
+.form2{
+	margin-left: -8px;
+}
+.forma-div{
+	width: 900px;
+	display: inline-block;
+}
+.form2{
+	margin-left: 23px;
+}
+.part1{
+	background-color:#66aecc;
+	width: 100%;
+	height:447px;
+	color: white;
+	font-size: 32px;
+}
+.part1-1{
+	position: inherit;
+	margin-left: 80px;
+	margin-top:0px;
+	width: 740px;
+	font-family: Proxima Nova Condensed;
+}
+.textok{
+	font-family: "Proxima Nova Extra Condensed Regular";	
+    font-size: 52px;
+    text-transform: uppercase;
+    padding-top: 70px;
+    font-weight:400;
+    font-stretch: ultra-expanded;
+}
+.img1{
+	width: 305px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+.foto{
+	float: right;
+	margin-top: 83.5px;
+	margin-right: 40px;
+	padding: 0;
+	padding: 0;
+}
+.part2{
+	background-color:#1f4c6b;
+	margin-top: -10px;
+	width: 100%;
+	height:340px;
+	color: white;
+	font-size: 32px;
+}
+.alltables{
+	width: auto;
+	height: 336px;
+}
+.table1{
+	position: relative;
+	width: 250px;
+	display: inline-block;
+	left: 360px;
+	top: -100px;
+}
+.table2{
+	position: relative;
+	width: 200px;
+	display: inline-block;
+	left: 360px;
+	top: -180px;
+}
+.table3{
+	position: relative;
+	text-align: right;
+	width: 250px;
+	top: -174px;
+	left: 480px;
+	padding: 0;
+	display: inline-block;
+}
+.gor{
+	font-size: 2px;
+}
+.table1 p{
+	padding: 0;
+}
+.p1{
+	font-weight: bolder;
+	margin:10px;
+	font-size: 15px;
+	color: white;
+	font-family: Proxima Nova Regular;
+	line-height: 21px;
+}
+.p2{
+	line-height: 15px;
+	position: relative;
+	font-size: 13px;
+	color: #7f98ac;
+	margin-bottom: 5px;
+	left: 10px;
+	font-family: Proxima Nova Regular;
+}
+.copy{
+	position: relative;
+	font-size: 13px;
+	color: #7f98ac;
+	top: -50px;
+	left:-680px;
+	display: inline-block;
+	width: 200px;
+	padding: 5px;
+	font-weight: 100;
+	font-family: Proxima Nova Regular;
+	line-height: 26px;
+}
+.table1 a, .table2 a{
+	color: #7f98ac;
+	text-decoration: none;
+}
+.table1 a:hover, .table2 a:hover{
+	text-decoration: underline;
+}
+.social{
+	width: 30px;
+	height: 30px;
+	border-radius: 10px;
+	transition: border-radius 0.3s;
+}
+.social:hover{
+	border-radius: 30px;
+}
+.p1-1{
+	font-weight: bolder;
+	position: relative;
+	top:10px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	color: white;
+	font-family: Proxima Nova Regular;
+	line-height: 21px;
+	width: 100%; 
+	text-align: right;
+}
+.p2-2{
+	line-height: 15px;
+	position: relative;
+	font-size: 13px;
+	color: #7f98ac;
+	margin-bottom: 5px;
+	right: 0px;
+	font-family: Proxima Nova Regular;
+	width: 100%; 
+	text-align: right;
+}
+
